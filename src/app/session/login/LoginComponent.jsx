@@ -34,7 +34,7 @@ const LoginComponent = props => {
                     className="ma4"
                     >
                         <Card.Content>
-                            <Header as='h1'>Welcome back!</Header>
+                            <Header id='welcome' as='h1'>Welcome back!</Header>
                             <Form 
                             onSubmit={handleSubmit(props.onSubmit)} 
                             className='pt3'>

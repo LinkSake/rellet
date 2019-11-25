@@ -14,9 +14,9 @@ const HomeComponent = props => {
 
     const welcome = (
         <div>
-            <Image src='/img/rellet.png'/>
-            <Header id='welcome' as='h1'>Welcome to Rellet!</Header>
-            <Header id='welcome' as='h3'>Let's save today <span role='img' arial-label='wallet emoji'>👛</span></Header>
+            <Image id='logo' src='/img/rellet.png'/>
+            <Header as='h1'>Welcome to Rellet!</Header>
+            <Header as='h3'>Let's save today <span role='img' arial-label='wallet emoji'>👛</span></Header>
         </div>
     );
 

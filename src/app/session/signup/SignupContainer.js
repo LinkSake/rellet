@@ -18,7 +18,6 @@ const SignupContainer = props => {
                 if (typeof res === 'undefined') {
                     console.log(res);
                 } else {
-                    console.log(res);
                     navigate('/login');
                 }
             });

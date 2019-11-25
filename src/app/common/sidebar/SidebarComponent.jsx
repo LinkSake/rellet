@@ -17,6 +17,7 @@ const SidebarComponent = props => {
 
     return(
         <Sidebar
+        id='sidebar'
         as={Menu}
         icon='labeled'
         inverted
@@ -25,7 +26,7 @@ const SidebarComponent = props => {
         width='thin'
       >
             <Menu.Item onClick={() => {onChangeSection('me')}}>
-                <Icon name='user' />
+                <Icon id='me' name='user' />
                 Me
             </Menu.Item>
             <Menu.Item onClick= {() => {onChangeSection('accounts')}}>
