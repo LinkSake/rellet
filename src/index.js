@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
+import 'semantic-ui-css/semantic.min.css';
+import 'tachyons';
+
 import App from './App';
+import dotenv from 'dotenv';
+
 import * as serviceWorker from './serviceWorker';
 
+
+dotenv.config();
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
